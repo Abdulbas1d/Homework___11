@@ -64,7 +64,7 @@ button && button.addEventListener('click', function (event) {
             }
 
             if (data.message == "User registered succesfully!") {
-                window.location.assign('http://127.0.0.1:5501../pages/login.html');
+                window.location.assign('http://127.0.0.1:5501/pages/login.html');
             }
         })
         .catch(err => {
